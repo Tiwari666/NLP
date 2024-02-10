@@ -83,16 +83,17 @@ The main difference between stemming and lemmatization is that stemming may resu
 
 
 
-6) Modeling :
+5) Modeling :
 A unique index or ID is assigned after the preprocessing of the data, which help to vectorize the text under the idea of Word Embedding via the
 Word2Vec models, such as Continuous Bag of Words (CBOW) and Skip-gram.
 Word2Vec models, such as Continuous Bag of Words (CBOW) and Skip-gram, learn to predict the context of a word given its neighboring words or vice versa, thereby generating dense, semantic embeddings for each word in the vocabulary.
 
 Alternatively, use the GloVe algorithm to generate word embeddings. GloVe (Global Vectors for Word Representation) is based on matrix factorization techniques and leverages global word-word co-occurrence statistics to learn word embeddings.
 
-7) Model Hyperparameter tuning
+6) Model Hyperparameter tuning
 
-8) Prediction
+7) Prediction
 
-9) Model Deployment to production
+8) Model Deployment to production
+
 
