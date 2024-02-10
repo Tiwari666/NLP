@@ -97,7 +97,7 @@ Alternatively, use the GloVe algorithm to generate word embeddings. GloVe (Globa
 8) Model Deployment to production
 
 
-#Two different approaches for Text Summarization
+# Two different approaches for Text Summarization
 A) Extractive Summarization
 
 B) Abstractive Summarization
@@ -134,13 +134,13 @@ So, to perform abstractive or extractive summarization using NLTK, one would typ
 
 
 
-#Terms Used in NLP:
+# Terms Used in NLP:
 
-#A) Corpus:
+# A) Corpus:
 
 A collection of text is known as Corpus. This could be data sets such as bodies of work by an author, poems by a particular poet, etc. To explain this concept in the blog, we will use a data set of predetermined stop words.
 
-#B) Tokenizers:
+# B) Tokenizers:
 
 Tokenization is the process of breaking down a stream of text into smaller units called tokens i.e., This divides a text into a series of tokens.
 
@@ -150,7 +150,7 @@ Tokens serve as the basic building blocks for various NLP tasks such as parsing,
 
 Tokenizers have three primary tokens – sentence, word, and regex tokenizer. We will be using only the word and the sentence tokenizer.
 
-#C) TF-IDF (Term Frequency-Inverse Document Frequency):
+# C) TF-IDF (Term Frequency-Inverse Document Frequency):
 
 This method assigns weights to each term in a document based on its frequency in the document and its rarity in the entire corpus. Sentences with the highest TF-IDF scores are selected for the summary under the Extractive Summarization technique.
 
