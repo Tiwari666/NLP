@@ -1,4 +1,5 @@
-#Natural Language Processing (NLP) is a subfield of artificial intelligence (AI) that focuses on the interaction between computers and human languages. The goal of NLP is to enable computers to understand, interpret, and generate human language in a way that is both meaningful and contextually relevant.
+# Natural Language Processing (NLP) 
+NLP is a subfield of artificial intelligence (AI) that focuses on the interaction between computers and human languages. The goal of NLP is to enable computers to understand, interpret, and generate human language in a way that is both meaningful and contextually relevant.
 
 # Application of NLP:
 1) *Text Classification:** NLP algorithms are employed for text classification tasks, such as email filtration :spam detection, fishing attempts, sentiment analysis, and topic categorization.
