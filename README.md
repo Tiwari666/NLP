@@ -11,7 +11,7 @@ Sentiment analysis is the process of analyzing emotions within a text and classi
 
 4). **Chatbots:** Businesses use NLP-powered chatbots to provide automated customer support.
 
-5) *SPEECH RECOGNITION**: aLEXA, SIRI,CORTANA, GOOGLE ASSISTANT.
+5) *SPEECH RECOGNITION**: ALEXA, SIRI,CORTANA, GOOGLE ASSISTANT.
 
 6) **Financial Analysis:** NLP helps analyze financial news, reports, and social media to gain insights into market trends, sentiments, and investment opportunities.
 
@@ -160,3 +160,14 @@ Word embeding is a representation of words in a continuous vector space where wo
 Word embeddings are typically learned from large corpora of text data using techniques like Word2Vec, GloVe (Global Vectors for Word Representation), or embeddings from pre-trained language models like BERT (Bidirectional Encoder Representations from Transformers).
 
 
+
+
+
+
+
+# Sources: 
+Link1--Top 14 NLTK preprocessing steps: https://spotintelligence.com/2022/12/21/nltk-preprocessing-pipeline/
+
+Link2: https://github.com/ShubhamMandowara/Text_summarization/blob/main/notebooks/Text%20summary%20based%20on%20training%20a%20pre%20existing%20model.ipynb
+
+Link3--LINK FOR PREPROCESSING: https://spotintelligence.com/2022/12/21/nltk-preprocessing-pipeline/
