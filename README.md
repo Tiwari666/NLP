@@ -97,3 +97,66 @@ Alternatively, use the GloVe algorithm to generate word embeddings. GloVe (Globa
 8) Model Deployment to production
 
 
+#Two different approaches for Text Summarization
+A) Extractive Summarization
+
+B) Abstractive Summarization
+
+A) Extractive Summarization:
+
+In Extractive Summarization, we identify essential phrases or sentences from the original text and extract only these phrases from the text. These extracted sentences would be the summary.
+
+BERTSUM: While BERT (Bidirectional Encoder Representations from Transformers) is primarily used for abstractive summarization, BERTSUM is a variant that fine-tunes BERT for extractive summarization by scoring sentences based on their representation in the BERT model.
+
+LSTM-based models: Long Short-Term Memory (LSTM) networks and their variants, such as Bidirectional LSTMs (BiLSTMs) or Gated Recurrent Units (GRUs), can be adapted for extractive summarization tasks by training them to predict the importance of each sentence in the document.
+
+One of the most frequently used models for extractive summarization is the TextRank algorithm. TextRank is a graph-based ranking algorithm inspired by Google's PageRank algorithm, which ranks web pages based on their importance. In TextRank, a graph is constructed where nodes represent sentences, and edges between nodes represent the similarity between sentences.
+
+B) Abstractive Summarization:
+
+We work on generating new sentences from the original text in the Abstractive Summarization approach. The abstractive method contrasts the approach described above, and the sentences generated through this approach might not even be present in the original text.
+
+Deep Learning Models (e.g., Transformer-based models like BERT, GPT) come under the Abstractive Summarization.
+
+Sequence-to-Sequence Models (e.g., LSTM, GRU) come under the Abstractive Summarization.
+
+
+# Note on NLTK:
+
+NLTK (Natural Language Toolkit) is a comprehensive library for natural language processing tasks in Python. It provides various tools and resources for a wide range of tasks, including tokenization, stemming, lemmatization, part-of-speech tagging, and more.
+
+However, NLTK itself does not perform abstractive or extractive summarization out of the box. Instead, NLTK provides the building blocks and utilities that can be used to implement summarization algorithms, but one would need to write the code or use additional libraries to perform the actual summarization task.
+
+For example, NLTK provides functions for text preprocessing (e.g., tokenization) and linguistic analysis (e.g., part-of-speech tagging), which can be useful in developing summarization systems. But for abstractive or extractive summarization, one would typically use NLTK in conjunction with other libraries or algorithms specifically designed for summarization tasks, such as TextRank, BERT, or other machine learning models.
+
+So, to perform abstractive or extractive summarization using NLTK, one would typically use NLTK for text preprocessing and linguistic analysis, and then implement or integrate algorithms or models for the summarization task itself.
+
+
+
+
+#Terms Used in NLP:
+
+#A) Corpus:
+
+A collection of text is known as Corpus. This could be data sets such as bodies of work by an author, poems by a particular poet, etc. To explain this concept in the blog, we will use a data set of predetermined stop words.
+
+#B) Tokenizers:
+
+Tokenization is the process of breaking down a stream of text into smaller units called tokens i.e., This divides a text into a series of tokens.
+
+Tokens serve as the basic building blocks for various NLP tasks such as parsing, sentiment analysis, part-of-speech tagging, and named entity recognition.
+
+
+
+Tokenizers have three primary tokens – sentence, word, and regex tokenizer. We will be using only the word and the sentence tokenizer.
+
+#C) TF-IDF (Term Frequency-Inverse Document Frequency):
+
+This method assigns weights to each term in a document based on its frequency in the document and its rarity in the entire corpus. Sentences with the highest TF-IDF scores are selected for the summary under the Extractive Summarization technique.
+
+#D) Word embedding
+Word embeding is a representation of words in a continuous vector space where words with similar meanings are mapped to nearby points. In other words, it's a mathematical technique to represent words as vectors (arrays of real numbers) in such a way that the geometric distance between these vectors captures the semantic similarity between the corresponding words.
+
+Word embeddings are typically learned from large corpora of text data using techniques like Word2Vec, GloVe (Global Vectors for Word Representation), or embeddings from pre-trained language models like BERT (Bidirectional Encoder Representations from Transformers).
+
+
