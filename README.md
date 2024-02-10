@@ -34,7 +34,8 @@ BASED ON THE NLP, various kinds of LLM are developed...
 
 
 LINK FOR PREPROCESSING: https://spotintelligence.com/2022/12/21/nltk-preprocessing-pipeline/
-#Steps in NLP
+
+# Steps in NLP
 
 1) Set up the environment: Cloud account(AWS, GCP...), Jupyter Notebook,....
 
